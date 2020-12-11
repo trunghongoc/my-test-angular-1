@@ -1,0 +1,10 @@
+.heroes {
+  .heroes__item {
+    border: 1px solid transparent;
+    padding: 6px;
+
+    &.is-active {
+      border: 1px solid red;
+    }
+  }
+}
