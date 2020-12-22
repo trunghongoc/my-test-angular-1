@@ -38,7 +38,22 @@
             "style": "camelCase"
           }
         ],
-        "semi": ["error", "never"]
+        "semi": ["error", "never"],
+        "@typescript-eslint/semi": ["error", "never"],
+        "@typescript-eslint/member-delimiter-style": [
+          "error",
+          {
+            "multiline": {
+              "delimiter": "none",
+              "requireLast": false
+            },
+            "singleline": {
+              "delimiter": "comma",
+              "requireLast": false
+            }
+          }
+        ],
+        "indent": ["warn", 2]
       }
     },
     {
